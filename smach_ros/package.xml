@@ -31,7 +31,7 @@
   <exec_depend>smach_msgs</exec_depend>
 
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_cmake</build_type>
     <rosdoc config="rosdoc.yaml"/>
   </export>
 </package>

@@ -1,6 +1,10 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(smach_msgs)
+project(smach_msgs
+  DESCRIPTION "Messages that are used by the introspection interfaces for smach."
+)
+
+find_package(hydra_cpack REQUIRED)
 
 find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
@@ -18,3 +22,5 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
+
+hydra_cpack_ros()

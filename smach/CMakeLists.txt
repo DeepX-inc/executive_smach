@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(smach
+project(deepx_smach
   DESCRIPTION "SMACH is a task-level architecture for rapidly creating complex robot behavior."
 )
 

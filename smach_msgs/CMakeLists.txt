@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(smach_msgs
+project(deepx_smach_msgs
   DESCRIPTION "Messages that are used by the introspection interfaces for smach."
 )
 

@@ -6,11 +6,11 @@ else()
   set(PROJECT_VERSION "0.0.0")
 endif()
 
-set(${PROJECT_NAME}_VERSION ${PROJECT_VERSION})
-project(${PROJECT_NAME}
-  VERSION ${PROJECT_VERSION}
-  DESCRIPTION "SMACH is a task-level architecture for rapidly creating complex robot behavior."
+project(smach
+  version ${PROJECT_VERSION}
 )
+
+set(${PROJECT_NAME}_VERSION ${PROJECT_VERSION})
 
 set(CPACK_PACKAGE_VERSION ${PROJECT_VERSION})
 

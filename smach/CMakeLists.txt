@@ -7,7 +7,7 @@ else()
 endif()
 
 project(smach
-  version ${PROJECT_VERSION}
+  VERSION ${PROJECT_VERSION}
 )
 
 set(${PROJECT_NAME}_VERSION ${PROJECT_VERSION})

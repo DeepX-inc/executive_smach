@@ -23,4 +23,6 @@ ament_export_dependencies(rosidl_default_runtime)
 
 ament_package()
 
-hydra_cpack_ros()
+hydra_cpack_ros(
+  VERSION ${HYDRA_CPACK_VERSION}
+)

@@ -26,5 +26,6 @@ ament_export_dependencies(
 ament_package()
 
 hydra_cpack_ros(
+  VERSION ${HYDRA_CPACK_VERSION}
   DEPENDS "ros-humble-smach, ros-humble-smach-msgs"
 )

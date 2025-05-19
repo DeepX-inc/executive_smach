@@ -13,7 +13,9 @@ find_package(smach_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
 
-ament_python_install_package(${PROJECT_NAME})
+ament_python_install_package(
+  smach_ros
+)
 
 ament_export_dependencies(
   rclpy

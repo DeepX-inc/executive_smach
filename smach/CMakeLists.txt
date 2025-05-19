@@ -8,6 +8,7 @@ endif()
 
 project(smach
   VERSION ${PROJECT_VERSION}
+  DESCRIPTION "SMACH is a task-level architecture for rapidly creating complex robot behavior."
 )
 
 set(${PROJECT_NAME}_VERSION ${PROJECT_VERSION})

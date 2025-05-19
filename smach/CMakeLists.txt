@@ -8,12 +8,10 @@ find_package(hydra_cpack REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 
-hydra_cpack_ros(
-    VERSION ${HYDRA_CPACK_VERSION}
-)
-
 ament_python_install_package(${PROJECT_NAME})
 
 ament_package()
 
-hydra_cpack_ros()
+hydra_cpack_ros(
+    VERSION ${HYDRA_CPACK_VERSION}
+)
